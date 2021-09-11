@@ -21,6 +21,7 @@ import ConfirmModal from '../components/ConfirmModal';
 
 
 import homePage from './page/homePage';
+import DetailFilm from './page/DetailFilm';
 
 
 class App extends Component {
@@ -56,6 +57,7 @@ class App extends Component {
                                 <Switch>
                                     <Route path={path.HOME} exact component={(Home)} />
                                     <Route path={path.HOMEPAGE} exact component={homePage} />
+                                    <Route path={path.DETAIL_FILM} exact component={DetailFilm} />
                                     <Route path={path.LOGIN} component={userIsNotAuthenticated(Login)} />
                                     <Route path={path.SYSTEM} component={userIsAuthenticated(System)} />
                                 </Switch>
