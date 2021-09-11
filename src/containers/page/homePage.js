@@ -1,19 +1,31 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
+import './homePage.scss'
 
 import HomePageHeader from './HomePageHeader';
+import PopularFilm from './section/PopularFilm';
 
 class HomePage extends Component {
-
+    
+    settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    };
+    
     render() {
-
+        
 
         return (
-            <div>
+            <>
                 <HomePageHeader />
-                <h3>this is home page</h3>
-            </div>
+                <div className="page-container">
+                    <PopularFilm/>
+                </div>
+            </>
         );
     }
 

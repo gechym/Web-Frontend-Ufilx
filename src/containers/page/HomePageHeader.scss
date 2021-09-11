@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap");
+.header-container-netfilx {
+  font-family: "Source Sans Pro", sans-serif;
+  height: 56px;
+  background-color: black;
+
+  .header-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    .content-left {
+      width: 200px;
+      position: relative;
+      overflow: hidden;
+      .logo {
+        position: absolute;
+        top: -56px;
+        display: block;
+        width: 300px;
+        left: -30px;
+        cursor: pointer;
+      }
+    }
+    .content-right {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 5px;
+      margin-right: 40px;
+      .bt {
+        text-transform: uppercase;
+        width: 112px;
+        height: 33px;
+        outline: none;
+        border: none;
+        color: white;
+        font-size: 15px;
+        border-radius: 3px;
+        background-color: transparent;
+        border: 1px solid white;
+        &:hover {
+          background-color: #2d2d2d;
+        }
+
+        &.active {
+          background-color: #e00712;
+          border: none;
+        }
+      }
+    }
+  }
+}
