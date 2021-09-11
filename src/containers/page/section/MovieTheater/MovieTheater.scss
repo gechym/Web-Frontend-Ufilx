@@ -1,0 +1,22 @@
+.section-carousel-movie-theater {
+    height: 330px;
+    padding-top: 1px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+        rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    .block-slide-movie-theater {
+        .img-customize-movie-theater {
+            height: 155px;
+            background-image: url("https://i.ytimg.com/vi/5qap5aO4i9A/hq720_live.jpg?sqp=CIS4vYkG-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDK2Q9a7bkJrPagb1Ht05n2-L8QOg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        p {
+            font-size: 16px;
+            color: #fff;
+            text-align: center;
+        }
+    }
+}

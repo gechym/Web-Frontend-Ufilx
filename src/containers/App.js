@@ -15,6 +15,8 @@ import Login from '../routes/Login';
 import System from '../routes/System';
 
 import { CustomToastCloseButton } from '../components/CustomToast';
+import CustomScrollbars from '../components/CustomScrollbars';
+
 import ConfirmModal from '../components/ConfirmModal';
 
 
@@ -47,16 +49,19 @@ class App extends Component {
                 <Router history={history}>
                     <div className="main-container">
                         {/* <ConfirmModal /> */}
-                        
 
-                        <span className="content-container">
-                            <Switch>
-                                <Route path={path.HOME} exact component={(Home)} />
-                                <Route path={path.HOMEPAGE} exact component={homePage} />
-                                <Route path={path.LOGIN} component={userIsNotAuthenticated(Login)} />
-                                <Route path={path.SYSTEM} component={userIsAuthenticated(System)} />
-                            </Switch>
-                        </span>
+
+                        <div className="content-container">
+                            <CustomScrollbars style={{ height: '100vh' }}>
+                                <Switch>
+                                    <Route path={path.HOME} exact component={(Home)} />
+                                    <Route path={path.HOMEPAGE} exact component={homePage} />
+                                    <Route path={path.LOGIN} component={userIsNotAuthenticated(Login)} />
+                                    <Route path={path.SYSTEM} component={userIsAuthenticated(System)} />
+                                </Switch>
+                            </CustomScrollbars>
+                        </div>
+
 
                         <ToastContainer
                             className="toast-container" toastClassName="toast-item" bodyClassName="toast-item-body"

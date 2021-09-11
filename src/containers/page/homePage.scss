@@ -4,93 +4,69 @@
   padding: 10px 40px;
 }
 
-.slick-slider {
-  height: 100% !important;
-}
+.content-carousel {
+  .title-carousel {
+    display: flex;
+    align-items: center;
+    width: 1290px;
+    height: 56px;
+    margin: 0 auto;
+    justify-content: space-between;
 
-.slick-next:before {
-  font-family: FontAwesome in !important;
-  font-size: 30px !important;
-  font-weight: 1000 !important;
-  color: #7f7f7f !important;
-  // content: "\f060" !important;
-}
+    .text-carousel {
+      font-weight: 600;
+      font-size: 28px;
+      color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+    }
 
-.slick-prev:before {
-  font-family: FontAwesome !important;
-  font-size: 30px !important;
-  font-weight: 1000 !important;
-  color: #7f7f7f !important;
-  // content: "\f060" !important;
+    // .more-carousel {
+    //   padding: 8px 14px;
+    //   background: #ebebeb;
+
+    //   &:hover {
+    //     background-color: #f7d800;
+    //     a {
+    //       color: #fff;
+    //     }
+    //   }
+
+    //   a {
+    //     text-decoration: none;
+    //     color: #000;
+    //     font-size: 12px;
+    //     text-transform: uppercase;
+    //   }
+    // }
+  }
+
+  .container {
+    max-width: 1300px;
+    padding: 0;
+    .slick-slide {
+      padding: 5px;
+
+      .block-slide {
+      }
+    }
+  }
 }
 
 .slick-prev {
-  left: -20px !important;
-  z-index: 999999 !important;
-  // position: relative !important;
-  // top: -90% !important;
-  &:hover {
-    background-color: rgb(244, 238, 238) !important;
-  }
+  left: -38px;
+  top: 42%;
+  z-index: 2;
 }
 
 .slick-next {
-  right: -20px !important;
-
-  &:hover {
-    background-color: rgb(244, 238, 238) !important;
-  }
+  top: 42%;
+  z-index: 2;
+  right: -25px;
 }
 
-.slick-prev,
-.slick-next {
-  font-size: 18px !important;
-  line-height: 0;
-  position: absolute;
-  top: 50%;
-  display: block;
-  width: 20px;
-  height: 20px;
-  padding: 0;
-  transform: translate(0, -50%);
-  cursor: pointer;
-  color: transparent;
-  border: none;
-  outline: none;
-  background-color: rgba(255, 255, 255, 0.487) !important;
-  /* background: transparent; */
-  width: 44px !important;
-  height: 44px !important;
-  border: 2px solid #d7d7d7 !important;
-
-  &:hover {
-    background-color: #f5f5f5;
-  }
+.slick-next:before,
+.slick-prev:before {
+  font-size: 30px;
+  color: #fff;
 }
-
-.slick-slider {
-  height: 100% !important;
-  position: relative;
-  display: block;
-  box-sizing: border-box;
-  -webkit-user-select: none;
-  user-select: none;
-  -webkit-touch-callout: none;
-  -khtml-user-select: none;
-  touch-action: pan-y;
-  -webkit-tap-highlight-color: transparent;
-  .slick-list {
-    position: relative;
-    display: block;
-    overflow: hidden;
-    margin: 0;
-    top: 50%;
-    padding: 0;
-    transform: translate(0, -50%) !important;
-    height: 100% !important;
-  }
-}
-
-.slick-disabled {
-  display: none !important;
-} // giới hạn

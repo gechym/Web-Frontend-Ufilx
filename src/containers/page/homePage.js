@@ -1,29 +1,43 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
+
+
+import HomePageHeader from './header/HomePageHeader';
+import PopularFilm from './section/Popular/PopularFilm';
+import MovieTheater from './section/MovieTheater/MovieTheater';
+import Cartoon from './section/Cartoon/Cartoon';
+
+
+
+import 'slick-carousel/slick/slick.css';
+import "slick-carousel/slick/slick-theme.css";
+
 import './homePage.scss'
 
-import HomePageHeader from './HomePageHeader';
-import PopularFilm from './section/PopularFilm';
-
 class HomePage extends Component {
-    
-    settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-    };
-    
+
+
     render() {
-        
+        let settings = {
+
+            infinite: true,
+            speed: 1000,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            // autoplay: true,
+
+        };
+
+
 
         return (
             <>
                 <HomePageHeader />
                 <div className="page-container">
-                    <PopularFilm/>
+                    <PopularFilm />
+                    <MovieTheater settings={settings} />
+                    <Cartoon settings={settings} />
                 </div>
             </>
         );
