@@ -34,7 +34,7 @@ class PopularFilm extends Component {
             speed: 1000,
             slidesToShow: 1,
             slidesToScroll: 1,
-            // autoplay: true,
+            autoplay: true,
 
         };
 
@@ -60,65 +60,63 @@ class PopularFilm extends Component {
                             <div className="block-slide-popular-film">
                                 <div className="img-customize-popular-film">
 
+                                <p>Phim hành động</p>
                                 </div>
 
-                                <p>Phim hành động</p>
                             </div>
 
                             <div className="block-slide-popular-film">
                                 <div className="img-customize-popular-film">
 
+                                <p>Phim hành động</p>
                                 </div>
 
+                            </div>
+
+                            <div className="block-slide-popular-film">
+                                <div className="img-customize-popular-film">
                                 <p>Phim hành động</p>
+
+                                </div>
+
+                            </div>
+
+                            <div className="block-slide-popular-film">
+                                <div className="img-customize-popular-film">
+                                <p>Phim hành động</p>
+
+                                </div>
+
+                            </div>
+
+                            <div className="block-slide-popular-film">
+                                <div className="img-customize-popular-film">
+                                    <p>Phim hành động</p>
+                                </div>
+
+                            </div>
+
+                            <div className="block-slide-popular-film">
+                                <div className="img-customize-popular-film">
+                                    <p>Phim hành động</p>
+                                </div>
+
                             </div>
 
                             <div className="block-slide-popular-film">
                                 <div className="img-customize-popular-film">
 
+                                    <p>Phim hành động</p>
                                 </div>
 
-                                <p>Phim hành động</p>
                             </div>
 
                             <div className="block-slide-popular-film">
                                 <div className="img-customize-popular-film">
 
+                                    <p>Phim hành động</p>
                                 </div>
 
-                                <p>Phim hành động</p>
-                            </div>
-
-                            <div className="block-slide-popular-film">
-                                <div className="img-customize-popular-film">
-
-                                </div>
-
-                                <p>Phim hành động</p>
-                            </div>
-
-                            <div className="block-slide-popular-film">
-                                <div className="img-customize-popular-film">
-
-                                </div>
-
-                                <p>Phim hành động</p>
-                            </div>
-
-                            <div className="block-slide-popular-film">
-                                <div className="img-customize-popular-film">
-
-                                </div>
-
-                                <p>Phim hành động</p>
-                            </div>
-
-                            <div className="block-slide-popular-film">
-                                <div className="img-customize-popular-film">
-
-                                </div>
-
-                                <p>Phim hành động</p>
                             </div>
 
 

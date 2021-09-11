@@ -10,6 +10,31 @@ import logo from '../../../assets/images/logo.png'
 // component homePage
 
 class HomePageHeader extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+
+        }
+    }
+
+    // componentDidMount() {
+    //     window.addEventListener('scroll', this.handleScroll);
+    // }
+
+
+    // componentWillUnmount() {
+    //     window.removeEventListener('scroll', this.handleScroll);
+    // }
+
+    // componentDidUpdate() {
+
+    // }
+
+    // handleScroll = () => {
+    //     console.log('oke')
+    // }
+    
+
 
     render() {
 

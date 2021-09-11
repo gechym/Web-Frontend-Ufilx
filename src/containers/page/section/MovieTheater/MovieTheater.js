@@ -50,66 +50,68 @@ class MovieTheater extends Component {
 
                             <div className="block-slide-movie-theater">
                                 <div className="img-customize-movie-theater">
-
+                                    <p>Phim hành động</p>
+                                    <i className="play fas fa-play-circle"></i>
                                 </div>
 
-                                <p>Phim hành động</p>
+                            </div>
+
+                            <div className="block-slide-movie-theater">
+                                <div className="img-customize-movie-theater">
+                                    <p>Phim hành động</p>
+                                    <i className="play fas fa-play-circle"></i>
+                                </div>
+
+                            </div>
+
+                            <div className="block-slide-movie-theater">
+                                <div className="img-customize-movie-theater">
+                                    <p>Phim hành động</p>
+                                    <i className="play fas fa-play-circle"></i>
+                                </div>
+
+                            </div>
+
+                            <div className="block-slide-movie-theater">
+                                <div className="img-customize-movie-theater">
+                                    <p>Phim hành động</p>
+                                    <i className="play fas fa-play-circle"></i>
+                                </div>
+
+                            </div>
+
+                            <div className="block-slide-movie-theater">
+                                <div className="img-customize-movie-theater">
+                                    <p>Phim hành động</p>
+                                    <i className="play fas fa-play-circle"></i>
+                                </div>
+
+                            </div>
+
+                            <div className="block-slide-movie-theater">
+                                <div className="img-customize-movie-theater">
+                                    <p>Phim hành động</p>
+                                    <i className="play fas fa-play-circle"></i>
+                                </div>
+
+                            </div>
+
+                            <div className="block-slide-movie-theater">
+                                <div className="img-customize-movie-theater">
+                                    <p>Phim hành động</p>
+                                    <i className="play fas fa-play-circle"></i>
+                                </div>
+
                             </div>
 
                             <div className="block-slide-movie-theater">
                                 <div className="img-customize-movie-theater">
 
+                                    <p>Phim hành động</p>
+                                    <p>Phim hành động</p>
+                                    <i className="play fas fa-play-circle"></i>
                                 </div>
 
-                                <p>Phim hành động</p>
-                            </div>
-
-                            <div className="block-slide-movie-theater">
-                                <div className="img-customize-movie-theater">
-
-                                </div>
-
-                                <p>Phim hành động</p>
-                            </div>
-
-                            <div className="block-slide-movie-theater">
-                                <div className="img-customize-movie-theater">
-
-                                </div>
-
-                                <p>Phim hành động</p>
-                            </div>
-
-                            <div className="block-slide-movie-theater">
-                                <div className="img-customize-movie-theater">
-
-                                </div>
-
-                                <p>Phim hành động</p>
-                            </div>
-
-                            <div className="block-slide-movie-theater">
-                                <div className="img-customize-movie-theater">
-
-                                </div>
-
-                                <p>Phim hành động</p>
-                            </div>
-
-                            <div className="block-slide-movie-theater">
-                                <div className="img-customize-movie-theater">
-
-                                </div>
-
-                                <p>Phim hành động</p>
-                            </div>
-
-                            <div className="block-slide-movie-theater">
-                                <div className="img-customize-movie-theater">
-
-                                </div>
-
-                                <p>Phim hành động</p>
                             </div>
 
 

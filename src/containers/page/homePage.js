@@ -18,24 +18,44 @@ import Footer from './footer/Footer';
 
 class HomePage extends Component {
 
+    constructor(props){
+        super(props)
+        this.state = {
+
+        }
+    }
+    
+    componentDidMount() {
+        window.addEventListener('scroll', this.handleScroll);
+    }
+    
+    
+    componentWillUnmount() {
+        window.removeEventListener('scroll', this.handleScroll);
+    }
+    
+    componentDidUpdate() {
+        
+    }
+
+    handleScroll = () => {
+        console.log('oke')
+    }
 
     render() {
         let settings = {
 
             infinite: true,
-            speed: 1000,
-            slidesToShow: 4,
+            speed: 800,
+            slidesToShow: 5,
             slidesToScroll: 1,
             // autoplay: true,
 
         };
-
-
-
         return (
             <>
                 <HomePageHeader />
-                <div className="page-container">
+                <div onClick={e => console.log('ádasdasd')} className="page-container">
                     <PopularFilm />
                     <MovieTheater settings={settings} />
                     <Cartoon settings={settings} />

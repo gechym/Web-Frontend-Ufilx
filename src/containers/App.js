@@ -53,7 +53,7 @@ class App extends Component {
 
 
                         <div className="content-container">
-                            <CustomScrollbars style={{ height: '100vh' }}>
+                            <CustomScrollbars style={{width: "100%",height: "100vh"}}>
                                 <Switch>
                                     <Route path={path.HOME} exact component={(Home)} />
                                     <Route path={path.HOMEPAGE} exact component={homePage} />

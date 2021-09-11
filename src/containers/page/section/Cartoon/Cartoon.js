@@ -50,66 +50,66 @@ class Cartoon extends Component {
 
                             <div className="block-slide-cartoon">
                                 <div className="img-customize-cartoon">
-
+                                    
+                                    <p>Phim hành động</p>
+                                    <i className="play fas fa-play-circle"></i>
                                 </div>
 
-                                <p>Phim hành động</p>
                             </div>
 
                             <div className="block-slide-cartoon">
                                 <div className="img-customize-cartoon">
-
+                                    <p>Phim hành động</p>
+                                    <i className="play fas fa-play-circle"></i>
                                 </div>
 
-                                <p>Phim hành động</p>
                             </div>
 
                             <div className="block-slide-cartoon">
                                 <div className="img-customize-cartoon">
-
+                                    <p>Phim hành động</p>
+                                    <i className="play fas fa-play-circle"></i>
                                 </div>
 
-                                <p>Phim hành động</p>
                             </div>
 
                             <div className="block-slide-cartoon">
                                 <div className="img-customize-cartoon">
-
+                                    <p>Phim hành động</p>
+                                    <i className="play fas fa-play-circle"></i>
                                 </div>
 
-                                <p>Phim hành động</p>
                             </div>
 
                             <div className="block-slide-cartoon">
                                 <div className="img-customize-cartoon">
-
+                                    <p>Phim hành động</p>
+                                    <i className="play fas fa-play-circle"></i>
                                 </div>
 
-                                <p>Phim hành động</p>
                             </div>
 
                             <div className="block-slide-cartoon">
                                 <div className="img-customize-cartoon">
-
+                                    <p>Phim hành động</p>
+                                    <i className="play fas fa-play-circle"></i>
                                 </div>
 
-                                <p>Phim hành động</p>
                             </div>
 
                             <div className="block-slide-cartoon">
                                 <div className="img-customize-cartoon">
-
+                                    <p>Phim hành động</p>
+                                    <i className="play fas fa-play-circle"></i>
                                 </div>
 
-                                <p>Phim hành động</p>
                             </div>
 
                             <div className="block-slide-cartoon">
                                 <div className="img-customize-cartoon">
-
+                                    <p>Phim hành động</p>
+                                    <i className="play fas fa-play-circle"></i>
                                 </div>
-
-                                <p>Phim hành động</p>
                             </div>
 
 

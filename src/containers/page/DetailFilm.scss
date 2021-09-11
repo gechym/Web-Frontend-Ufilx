@@ -5,6 +5,7 @@
     margin: 0;
   }
   background-color: #181818;
+  margin-top: 56px;
 
   .detail-content {
     padding: 0px 0px 0px 70px;
@@ -91,6 +92,16 @@
         }
       }
     }
+    .trailer-content {
+      width: 94%;
+      height: 500px;
+      border: 1px solid white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
 
     .content-bottom {
       padding: 0px 70px 70px 0px;
@@ -143,7 +154,7 @@
           margin-bottom: 20px;
           img {
             width: 330px;
-            height: 180px;
+            height: 100%;
           }
 
           p {
