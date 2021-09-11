@@ -154,16 +154,6 @@ class DetailFilm extends Component {
                                     </div>
 
 
-                                    <div className="cast col-3">
-                                        <span>Cho Seung-woo</span>
-
-                                    </div>
-
-
-                                    <div className="cast col-3">
-                                        <span>Cho Seung-woo</span>
-
-                                    </div>
 
 
 
