@@ -7,10 +7,93 @@
   background-color: #181818;
 
   .detail-content {
+    padding: 0px 0px 0px 70px;
     .content-top {
+      position: relative;
+      background-image: url("https://occ-0-395-325.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABfDooq9UpoQU_W_v-RQNF50FmBWt3N2aFrpliWueOcUN7gw-Z4neHoNXzhYfWppVpoTZc9Jm3v9JQ9M1KSNZ2TUEpkvb.jpg?r=af3");
+      height: 92vh;
+      background-position: top center !important;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+      .right {
+        display: flex;
+        align-items: center;
+        .right-content {
+          height: 300px;
+          h1 {
+            margin-top: 40px;
+            font-size: 26px;
+            font-weight: 700;
+          }
+        }
+        color: white;
+        height: 100%;
+        width: 700px;
+        background: linear-gradient(
+          to right,
+          #181818 20%,
+          rgba(23, 23, 23, 0.98) 20%,
+          rgba(23, 23, 23, 0.97) 25%,
+          rgba(23, 23, 23, 0.95) 35%,
+          rgba(23, 23, 23, 0.94) 40%,
+          rgba(23, 23, 23, 0.92) 45%,
+          rgba(23, 23, 23, 0.9) 50%,
+          rgba(23, 23, 23, 0.87) 55%,
+          rgba(23, 23, 23, 0.82) 60%,
+          rgba(23, 23, 23, 0.75) 65%,
+          rgba(23, 23, 23, 0.63) 70%,
+          rgba(23, 23, 23, 0.45) 75%,
+          rgba(23, 23, 23, 0.27) 80%,
+          rgba(23, 23, 23, 0.15) 85%,
+          rgba(23, 23, 23, 0.08) 90%,
+          rgba(23, 23, 23, 0.03) 95%,
+          rgba(23, 23, 23, 0) 100%
+        );
+        .name-img {
+          background-image: url("https://occ-0-395-325.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABeB4IjV8p1vrC8FOOUtj7oAxvsOyht5B5Jgycsm8WDKUVhYPNF5Uw-44pKlKcyXfgSnABOG9z0G2UcN0NbItTHaS9V1GCgacp1t8N9943eWc_tTn42af9fzlVXV7ctHliMNKSBKKN9cz_llxTJbDVeEeFF4BcSopjts_YQNk2-XWxA.png?r=fbc");
+          background-position: top center !important;
+          background-repeat: no-repeat !important;
+          background-size: cover !important;
+          width: 450px;
+          height: 101px;
+        }
+      }
+      .seen-now {
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+          rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        width: 94%;
+        height: 60px;
+        background-color: #282828;
+        position: absolute;
+        top: 91%;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+        h4 {
+          margin: 0;
+          svg {
+            width: 20px;
+          }
+        }
+
+        button {
+          text-transform: uppercase;
+          width: 150px;
+          height: 33px;
+          outline: none;
+          border: none;
+          font-size: 15px;
+          border-radius: 3px;
+          background-color: #e00712;
+          color: white;
+        }
+      }
     }
 
     .content-bottom {
+      padding: 0px 70px 70px 0px;
       .detail-title {
         height: 170px;
 
