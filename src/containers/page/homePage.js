@@ -40,7 +40,7 @@ class HomePage extends Component {
                     <MovieTheater settings={settings} />
                     <Cartoon settings={settings} />
                 </div>
-                <Footer/>
+                <Footer isShow = {true}/>
             </>
         );
     }

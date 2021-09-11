@@ -8,7 +8,7 @@ class Footer extends Component {
     constructor(props){
         super(props)
         this.state = {
-           
+            
         }
     }
     async componentDidMount(){
@@ -20,17 +20,21 @@ class Footer extends Component {
     }
 
     render() {
+        let { isShow } = this.props
         return (
             <>
-            <div className="footer-container text-center" style={{textAlign:'center'}}>
-                <h1 style={{color:'#FFFF',paddingTop:'20px'}}>Còn rất nhiều nội dung đáng xem.</h1>
-                <p style={{color:'#FFFF',fontSize:'18px' , width:'600px', margin:'20px auto'}}>
-                Netflix có một thư viện phong phú gồm các phim truyện, phim tài liệu, chương trình truyền hình, anime, tác phẩm giành giải thưởng của Netflix và nhiều nội dung khác. Xem không giới hạn bất cứ lúc nào bạn muốn.
-                </p>
-                <button className="bt">
-                    Tham Gia ngay
-                </button>
-            </div>
+            {
+                isShow &&
+                <div className="footer-container text-center" style={{textAlign:'center'}}>
+                    <h1 style={{color:'#FFFF',paddingTop:'20px'}}>Còn rất nhiều nội dung đáng xem.</h1>
+                    <p style={{color:'#FFFF',fontSize:'18px' , width:'600px', margin:'20px auto'}}>
+                    Netflix có một thư viện phong phú gồm các phim truyện, phim tài liệu, chương trình truyền hình, anime, tác phẩm giành giải thưởng của Netflix và nhiều nội dung khác. Xem không giới hạn bất cứ lúc nào bạn muốn.
+                    </p>
+                    <button className="bt">
+                        Tham Gia ngay
+                    </button>
+                </div>
+            }
             <div className="footer-container">
                 <h4>Bạn có câu hỏi ? liên hệ chúng tôi</h4>
                 <div className="footer-content">
