@@ -14,6 +14,7 @@ import 'slick-carousel/slick/slick.css';
 import "slick-carousel/slick/slick-theme.css";
 
 import './homePage.scss'
+import Footer from './footer/Footer';
 
 class HomePage extends Component {
 
@@ -39,6 +40,7 @@ class HomePage extends Component {
                     <MovieTheater settings={settings} />
                     <Cartoon settings={settings} />
                 </div>
+                <Footer/>
             </>
         );
     }
