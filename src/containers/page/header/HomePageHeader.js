@@ -3,14 +3,16 @@ import { Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 import './HomePageHeader.scss'
-import logo from '../../assets/images/logo.png'
+import logo from '../../../assets/images/logo.png'
+
+
 
 // component homePage
 
 class HomePageHeader extends Component {
 
     render() {
-        
+
 
         return (
             <div className="header-container-netfilx">

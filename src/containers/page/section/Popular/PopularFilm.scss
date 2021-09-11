@@ -1,0 +1,22 @@
+.section-carousel-popular-film {
+  height: 508px;
+  padding-top: 1px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  .block-slide-popular-film {
+    .img-customize-popular-film {
+      height: 350px;
+      background-image: url("https://occ-0-325-395.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABcs7-Uf6QMCCDoKI1bL7Ja5a3UuclXCYiwTpV5HK9zX1qs6V0bQO4XJJlPtU6A3S2P2T6CoL5xh1YCumXTEfy1MuTnNf.jpg?r=dc0");
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    p {
+      font-size: 30px;
+      color: #fff;
+      text-align: center;
+    }
+  }
+}
