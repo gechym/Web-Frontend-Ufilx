@@ -3,15 +3,16 @@ export const path = {
     LOGIN: '/login',
     LOG_OUT: '/logout',
     SYSTEM: '/system',
-    HOMEPAGE : '/home',
-    DETAIL_FILM : '/detail/:id'
+    HOMEPAGE: '/home',
+    DETAIL_FILM: '/detail/:id',
+    PLAYMOVIE: '/play-movie/:id',
 };
 
 export const languages = {
     VI: 'vi',
     EN: 'en'
 };
- 
+
 export const manageActions = {
     ADD: "ADD",
     EDIT: "EDIT",

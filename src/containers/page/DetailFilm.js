@@ -28,17 +28,17 @@ class DetailFilm extends Component {
 
                     <div className="detail-content">
 
-                    <div className="content-top">
+                        <div className="content-top">
                             <div className="right">
                                 <div className='bk-wrap'>
                                     <div className="right-content">
                                         <div className="name-img">
                                         </div>
                                         <h1>Tyler Rake: Nhiệm vụ giải cứu</h1>
-                                        <span style={{color:'#a3a3a3',marginBottom:'20px', marginTop:'20px',display:'block'}}>2020 | 18+ | 1g 57ph | Phim chuyển thể từ sách</span>
-                                        <p style={{marginBottom:'20px', display:'block'}}>
-                                            <span style={{color:'#a3a3a3'}}>
-                                            Diễn viên chính :
+                                        <span style={{ color: '#a3a3a3', marginBottom: '20px', marginTop: '20px', display: 'block' }}>2020 | 18+ | 1g 57ph | Phim chuyển thể từ sách</span>
+                                        <p style={{ marginBottom: '20px', display: 'block' }}>
+                                            <span style={{ color: '#a3a3a3' }}>
+                                                Diễn viên chính :
                                             </span>
                                             Chris Hemsworth,Rudhraksh Jaiswal,Randeep Hooda
                                         </p>
@@ -55,7 +55,7 @@ class DetailFilm extends Component {
                         </div>
                         <div className="trailer-content">
                             <div className="yt">
-                                <iframe width="800" height="500" src="https://www.youtube.com/embed/8I8nMtzN05s?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="700" height="400" src="https://www.youtube.com/embed/8I8nMtzN05s?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
                         <div className="content-bottom">

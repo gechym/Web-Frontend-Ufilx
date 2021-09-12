@@ -22,6 +22,8 @@ import ConfirmModal from '../components/ConfirmModal';
 
 import homePage from './page/homePage';
 import DetailFilm from './page/DetailFilm';
+import PlayMovie from './page/PlayMovie';
+
 
 
 class App extends Component {
@@ -53,11 +55,12 @@ class App extends Component {
 
 
                         <div className="content-container">
-                            <CustomScrollbars style={{width: "100%",height: "100vh"}}>
+                            <CustomScrollbars style={{ width: "100%", height: "100vh" }}>
                                 <Switch>
                                     <Route path={path.HOME} exact component={(Home)} />
                                     <Route path={path.HOMEPAGE} exact component={homePage} />
                                     <Route path={path.DETAIL_FILM} exact component={DetailFilm} />
+                                    <Route path={path.PLAYMOVIE} exact component={PlayMovie} />
                                     <Route path={path.LOGIN} component={userIsNotAuthenticated(Login)} />
                                     <Route path={path.SYSTEM} component={userIsAuthenticated(System)} />
                                 </Switch>
