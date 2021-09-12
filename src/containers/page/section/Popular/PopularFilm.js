@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import { FormattedMessage } from 'react-intl';
 
 import './PopularFilm.scss'
-
+import '../../homePage.scss'
 
 
 
@@ -60,7 +60,7 @@ class PopularFilm extends Component {
                             <div className="block-slide-popular-film">
                                 <div className="img-customize-popular-film">
 
-                                <p>Phim hành động</p>
+                                    <p>Phim hành động</p>
                                 </div>
 
                             </div>
@@ -68,14 +68,14 @@ class PopularFilm extends Component {
                             <div className="block-slide-popular-film">
                                 <div className="img-customize-popular-film">
 
-                                <p>Phim hành động</p>
+                                    <p>Phim hành động</p>
                                 </div>
 
                             </div>
 
                             <div className="block-slide-popular-film">
                                 <div className="img-customize-popular-film">
-                                <p>Phim hành động</p>
+                                    <p>Phim hành động</p>
 
                                 </div>
 
@@ -83,7 +83,7 @@ class PopularFilm extends Component {
 
                             <div className="block-slide-popular-film">
                                 <div className="img-customize-popular-film">
-                                <p>Phim hành động</p>
+                                    <p>Phim hành động</p>
 
                                 </div>
 

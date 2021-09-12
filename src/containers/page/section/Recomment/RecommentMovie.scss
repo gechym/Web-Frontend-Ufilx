@@ -1,0 +1,40 @@
+.section-carousel-recomment-movie {
+    height: 508px;
+    padding-top: 1px;
+
+    .title-carousel {
+        width: 1320px;
+    }
+
+    .container {
+        max-width: 1350px;
+        .block-slide-recomment-movie {
+            .img-customize-recomment-movie {
+                margin: 0 auto;
+                border-radius: 5px;
+                height: 270px;
+                width: 90%;
+                background-image: url("https://static.fptplay.net/static/img/share/video/17_10_2019/overlord317-10-2019_16g15-38.jpg?w=282&mode=scale");
+                background-position: top;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            p {
+                margin-top: 10px;
+                font-size: 15px;
+                height: 50px;
+                color: #fff;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.slick-next {
+    top: 38% !important;
+}
+
+.slick-prev {
+    top: 38% !important;
+}
