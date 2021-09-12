@@ -1,15 +1,86 @@
 .play-container {
   background-color: #181818;
   padding: 0px 90px;
+  color: #fff;
   .play-content {
     .play-media {
       .play-body {
-        height: 500px;
+        height: 600px;
       }
     }
     .description-movie {
+      height: 45vh;
+      .container {
+        padding: 50px 0;
+        .img-movie {
+          img {
+            width: 180px;
+            height: 260px;
+          }
+        }
+
+        .description-info {
+          .film-title {
+          }
+
+          .user-action {
+            margin: 20px 0;
+
+            .follow {
+              background: linear-gradient(90deg, #252728 0, #3f4143);
+              margin-right: 20px;
+            }
+            .share {
+              background: #ff6500;
+            }
+            a {
+              color: #fff;
+              text-decoration: none;
+              border-radius: 10px;
+              display: inline-block;
+              height: 36px;
+              width: 120px;
+              line-height: 36px;
+              text-align: center;
+
+              i {
+                color: #fff;
+              }
+            }
+          }
+
+          .film-desc {
+            span {
+              font-size: 20px;
+              display: inline-block;
+              margin-bottom: 10px;
+            }
+            p {
+              line-height: 25px;
+            }
+          }
+        }
+
+        .some-info-movie {
+          tr {
+            .info-left {
+              font-size: 16px;
+              width: 32%;
+            }
+            .info-right {
+              opacity: 0.5;
+              a {
+                text-decoration: none;
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
     }
     .recomment-movie {
+      padding: 50px 0;
+      height: 100px;
     }
   }
 }

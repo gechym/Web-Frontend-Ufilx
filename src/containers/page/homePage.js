@@ -18,24 +18,24 @@ import Footer from './footer/Footer';
 
 class HomePage extends Component {
 
-    constructor(props){
+    constructor(props) {
         super(props)
         this.state = {
 
         }
     }
-    
+
     componentDidMount() {
         window.addEventListener('scroll', this.handleScroll);
     }
-    
-    
+
+
     componentWillUnmount() {
         window.removeEventListener('scroll', this.handleScroll);
     }
-    
+
     componentDidUpdate() {
-        
+
     }
 
     handleScroll = () => {
@@ -47,7 +47,7 @@ class HomePage extends Component {
 
             infinite: true,
             speed: 800,
-            slidesToShow: 5,
+            slidesToShow: 4,
             slidesToScroll: 1,
             // autoplay: true,
 
@@ -60,7 +60,7 @@ class HomePage extends Component {
                     <MovieTheater settings={settings} />
                     <Cartoon settings={settings} />
                 </div>
-                <Footer isShow = {true}/>
+                <Footer isShow={true} />
             </>
         );
     }
