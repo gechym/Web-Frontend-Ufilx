@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 import './HomePageHeader.scss'
 import logo from '../../../assets/images/logo.png'
 
-
+import { withRouter } from 'react-router';
 
 // component homePage
 
@@ -43,7 +43,9 @@ class HomePageHeader extends Component {
             <div className="header-container-netfilx">
                 <div className="header-content">
                     <div className="content-left">
-                        <div className="logo">
+                        <div className="logo"  onClick={() => {
+                                this.props.history.push(`/home`)
+                            }}>
                             <img className="logo" src={logo} alt="" />
                         </div>
                     </div>
@@ -72,4 +74,4 @@ const mapDispatchToProps = dispatch => {
     };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(HomePageHeader);
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(HomePageHeader));

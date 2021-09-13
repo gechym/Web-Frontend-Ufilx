@@ -24,10 +24,7 @@ class DetailFilm extends Component {
             <>
                 <HomePageHeader />
                 <div className="detail-container">
-
-
                     <div className="detail-content">
-
                         <div className="content-top">
                             <div className="right">
                                 <div className='bk-wrap'>
@@ -142,7 +139,6 @@ class DetailFilm extends Component {
         );
     }
 }
-
 const mapStateToProps = state => {
     return {
         language: state.app.language,

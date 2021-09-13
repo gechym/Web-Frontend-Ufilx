@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Slider from "react-slick";
 import { connect } from "react-redux";
 import { FormattedMessage } from 'react-intl';
+import { withRouter } from 'react-router';
 
 import './PopularFilm.scss'
 import '../../homePage.scss'
@@ -59,8 +60,7 @@ class PopularFilm extends Component {
 
                             <div className="block-slide-popular-film">
                                 <div className="img-customize-popular-film">
-
-                                    <p>Phim hành động</p>
+                                    <p><a href="http://localhost:3000/play-movie/ksjahdkjashdasd">test</a></p>
                                 </div>
 
                             </div>
@@ -144,4 +144,4 @@ const mapDispatchToProps = dispatch => {
     };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(PopularFilm);
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(PopularFilm));
