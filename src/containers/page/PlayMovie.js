@@ -12,17 +12,17 @@ class PlayMovie extends React.Component {
         super(props)
         this.state = {
         }
-        
+
     }
-    componentWillMount(){
-      
+    componentWillMount() {
+
 
     }
     componentDidMount() {
-        
+
     }
     componentDidUpdate() {
-        
+
     }
 
 
@@ -30,21 +30,23 @@ class PlayMovie extends React.Component {
 
 
 
-    
+
     render() {
         return (
             <>
 
                 <HomePageHeader />
                 <div className="play-container">
-                    <div className="play-content" style={{height:'2000px', marginTop:'56px'}}>
+                    <div className="play-content" style={{ height: '2000px', marginTop: '56px' }}>
+
                         <div className="play-media">
                             <div className="row">
                                 <div className="play-body col-12">
-                                    <PlyrPlayer/>
+                                    <PlyrPlayer />
                                 </div>
                             </div>
                         </div>
+
                         <div className="description-movie">
                             <div className="container">
                                 <div className="row">
