@@ -24,7 +24,7 @@ class PlyrPlayer extends Component {
         script.async = true;
         document.body.appendChild(script);
         if (this.player) {
-            var hlsUrl = 'https://www.googleapis.com/drive/v3/files/1_2i6_DgGUfgc3HNJrICUeEAg5GpQqvn6?key=AIzaSyAMLhicKHJG0-jAnwlRaAkFrrZqxTMIeg4&alt=media';
+            var hlsUrl = 'https://www.googleapis.com/drive/v3/files/1Xxv2UDS-HrRf3tCG3xWMs8iTwiB4zE7B?key=AIzaSyAMLhicKHJG0-jAnwlRaAkFrrZqxTMIeg4&alt=media';
             var video = this.player;
             if (video.canPlayType("application/vnd.apple.mpegurl")) {
               // If HLS is natively supported, let the browser do the work!
@@ -87,7 +87,7 @@ class PlyrPlayer extends Component {
                     outline : 'none'
                 }}
             >
-                <track src={sub} kind="subtitles" srclang="en" label="English"/>
+                <track src="https://www.googleapis.com/drive/v3/files/1NFR45mTk9A3xHR13px_cbylBgIkpqhvL?key=AIzaSyAMLhicKHJG0-jAnwlRaAkFrrZqxTMIeg4&alt=media" kind="subtitles" srclang="en" label="English"/>
             </video>
         );
     }

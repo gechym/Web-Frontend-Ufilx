@@ -190,10 +190,10 @@
 }
 
 .plyr__control.plyr__tab-focus {
-  outline-color: #00b3ff;
+  outline-color: #E00712;
   outline-color: var(
     --plyr-tab-focus-color,
-    var(--plyr-color-main, var(--plyr-color-main, #00b3ff))
+    var(--plyr-color-main, var(--plyr-color-main, #E00712))
   );
   outline-offset: 2px;
   outline-style: dotted;
@@ -475,10 +475,10 @@ a.plyr__control:before {
 
 .plyr__menu__container
   .plyr__control[role="menuitemradio"][aria-checked="true"]:before {
-  background: #00b3ff;
+  background: #E00712;
   background: var(
     --plyr-control-toggle-checked-background,
-    var(--plyr-color-main, var(--plyr-color-main, #00b3ff))
+    var(--plyr-color-main, var(--plyr-color-main, #E00712))
   );
 }
 
@@ -512,10 +512,10 @@ a.plyr__control:before {
   border: 0;
   border-radius: 26px;
   border-radius: calc(var(--plyr-range-thumb-height, 13px) * 2);
-  color: #00b3ff;
+  color: #E00712;
   color: var(
     --plyr-range-fill-background,
-    var(--plyr-color-main, var(--plyr-color-main, #00b3ff))
+    var(--plyr-color-main, var(--plyr-color-main, #E00712))
   );
   display: block;
   height: 19px;
@@ -680,10 +680,10 @@ a.plyr__control:before {
 
 .plyr--full-ui
   input[type="range"].plyr__tab-focus::-webkit-slider-runnable-track {
-  outline-color: #00b3ff;
+  outline-color: #E00712;
   outline-color: var(
     --plyr-tab-focus-color,
-    var(--plyr-color-main, var(--plyr-color-main, #00b3ff))
+    var(--plyr-color-main, var(--plyr-color-main, #E00712))
   );
   outline-offset: 2px;
   outline-style: dotted;
@@ -691,10 +691,10 @@ a.plyr__control:before {
 }
 
 .plyr--full-ui input[type="range"].plyr__tab-focus::-moz-range-track {
-  outline-color: #00b3ff;
+  outline-color: #E00712;
   outline-color: var(
     --plyr-tab-focus-color,
-    var(--plyr-color-main, var(--plyr-color-main, #00b3ff))
+    var(--plyr-color-main, var(--plyr-color-main, #E00712))
   );
   outline-offset: 2px;
   outline-style: dotted;
@@ -702,10 +702,10 @@ a.plyr__control:before {
 }
 
 .plyr--full-ui input[type="range"].plyr__tab-focus::-ms-track {
-  outline-color: #00b3ff;
+  outline-color: #E00712;
   outline-color: var(
     --plyr-tab-focus-color,
-    var(--plyr-color-main, var(--plyr-color-main, #00b3ff))
+    var(--plyr-color-main, var(--plyr-color-main, #E00712))
   );
   outline-offset: 2px;
   outline-style: dotted;
@@ -1032,10 +1032,10 @@ a.plyr__control:before {
 .plyr--audio .plyr__control.plyr__tab-focus,
 .plyr--audio .plyr__control:hover,
 .plyr--audio .plyr__control[aria-expanded="true"] {
-  background: #00b3ff;
+  background: #E00712;
   background: var(
     --plyr-audio-control-background-hover,
-    var(--plyr-color-main, var(--plyr-color-main, #00b3ff))
+    var(--plyr-color-main, var(--plyr-color-main, #E00712))
   );
   color: #fff;
   color: var(--plyr-audio-control-color-hover, #fff);
@@ -1198,20 +1198,20 @@ a.plyr__control:before {
 .plyr--video .plyr__control.plyr__tab-focus,
 .plyr--video .plyr__control:hover,
 .plyr--video .plyr__control[aria-expanded="true"] {
-  background: #00b3ff;
+  background: #E00712;
   background: var(
     --plyr-video-control-background-hover,
-    var(--plyr-color-main, var(--plyr-color-main, #00b3ff))
+    var(--plyr-color-main, var(--plyr-color-main, #E00712))
   );
   color: #fff;
   color: var(--plyr-video-control-color-hover, #fff);
 }
 
 .plyr__control--overlaid {
-  background: #00b3ff;
+  background: #E00712;
   background: var(
     --plyr-video-control-background-hover,
-    var(--plyr-color-main, var(--plyr-color-main, #00b3ff))
+    var(--plyr-color-main, var(--plyr-color-main, #E00712))
   );
   border: 0;
   border-radius: 100%;
