@@ -4,9 +4,10 @@
   color: #fff;
   .play-content {
     .play-media {
+      overflow: hidden;
       .play-body {
         height: 600px;
-        margin-top : 90px;
+        margin-top: 90px;
       }
     }
     .description-movie {
